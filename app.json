@@ -1,26 +1,14 @@
-	{
-  "name": "public leech",
-  "description": "Telegram's telethon based publicLeech bot",
+{
+  "name": "Telegram Torrent Bot",
+  "description": "This Bot Leeches Magnet Links and Ytdl Supported links to Our Favourite Telegram and Most Loved Google drive and Other Cloud Servers . ",
   "keywords": [
-    "multi",
-    "purpose",
-    "ytdl",
-    "ffmpeg",
-    "remote",
-    "uploader",
-    "rclone"
+    "telegram","bot","torrent","leech"
   ],
-  "success_url": "https://telegram.dog/public_leechs",
-  "env": {
-    
-  },
- "stack": "container",
- "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "10"
-      }
-    }
-  ]
+  "repository": "https://github.com/Godofh3ell/torkit2",
+  "success_url": "https://github.com/Godofh3ell/torkit2",
+  "website": "https://github.com/Godofh3ell/torkit2",
+  
+
+
+  "stack": "container"
 }
